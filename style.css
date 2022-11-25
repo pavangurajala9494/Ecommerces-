@@ -1,0 +1,193 @@
+body{
+    font-family:'lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedOffers{
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    cursor: pointer;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
+.slider{
+    background: url("https://media.istockphoto.com/photos/black-brick-wall-picture-id1324275828");
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 89%);
+}
+.silderwrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+
+.sliderItem{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.sliderImg{
+    z-index: 1;
+}
+.sliderBg{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+}
+.sliderTittle{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 60px;
+    z-index: 1;
+}
+.sliderprice{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    border: 1px solid gray;
+    z-index: 1;
+}
+.Buybutton{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-weight: 800;
+    font-size: 30px;
+    border: 1px solid gray;
+    background-color: black;
+    z-index: 1;
+    cursor: pointer;
+    color: white;
+}
+
+.Buybutton:hover{
+    background-color: white;
+    color: black;
+}
+
+.sliderItem:nth-child(1) .sliderBg{
+    background-color: aqua;
+}
+
+.sliderItem:nth-child(2) .sliderBg{
+    background-color: rgb(51, 0, 255);
+}
+
+.sliderItem:nth-child(3) .sliderBg{
+    background-color: rgb(255, 0, 0);
+}
+
+.sliderItem:nth-child(4) .sliderBg{
+    background-color: rgb(183, 255, 0);
+}
+
+.sliderItem:nth-child(5) .sliderBg{
+    background-color: rgb(34, 255, 0);
+}
+
+.sliderItem:nth-child(1) .sliderprice{
+    color: aqua;
+}
+
+.sliderItem:nth-child(2) .sliderprice{
+    color: rgb(51, 0, 255);
+}
+
+.sliderItem:nth-child(3) .sliderprice{
+    color: rgb(255, 0, 0);
+}
+
+.sliderItem:nth-child(4) .sliderprice{
+    color: rgb(183, 255, 0);
+}
+
+.sliderItem:nth-child(5) .sliderprice{
+    color: rgb(34, 255, 0);
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon{
+    widows: 50px;
+    height: 50px;
+}
+.featureId{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.featuredesc{
+    color: gray;
+    width: 50%;
+    height: 100px;
+
+}
+
+.products{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(2% 9%, 100% 0, 100% 100%, 0 89%);
+}
+ .productImg{
+    width: 50%;
+ }
+
+ 
